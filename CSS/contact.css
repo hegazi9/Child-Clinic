@@ -1,0 +1,142 @@
+/*start navbar*/
+.head .navbar
+{
+    background-color: #252F31;
+    color: white;
+    overflow: hidden;
+    
+}
+.head .navbar h1
+{
+    color: aqua;
+    text-align: left;
+    margin-left: 30px;
+    float: left;
+    padding-bottom: 0;
+    
+}
+.head .navbar h1 span
+{
+    color: white;
+}
+.head .navbar img
+{
+    margin-left: 20px;
+    padding-top: 25px
+}
+.head .navbar ul 
+{
+    overflow: hidden;
+    float: right;
+    list-style: none;
+    padding-left: 0;
+    
+}
+.head .navbar ul li 
+{
+    float: left;
+    padding:10px;
+    padding-right:30px;
+}
+.head .navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+   font-size: 20px;
+}
+.head .navbar ul li a:hover
+{
+    color: aqua;
+}
+
+
+
+
+
+/*start contact me*/
+.contact-me
+{
+    background-image: url(../photos/6.jpg);
+    overflow: hidden;
+}
+
+.contact-me h1
+{
+  color: #fff;
+}
+.contact-me .info
+{
+    width: 45%;
+  margin-left: 5%;
+    float: left;
+}
+.contact-me p
+{
+    color: #444;
+    font-weight: bold;
+}
+.contact-me p strong
+{
+    color: white;
+}
+
+.contact-me .form
+{
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.contact-me .form label
+{
+    display: block;
+    margin-bottom: 10px;
+    color: #d1d6da;
+}
+.contact-me .form input[type="text"]
+{
+    background-color: #4b5557;
+    width: 80%;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contact-me .form textarea
+{
+    background-color: #4b5557;
+    width: 80%;
+    color: #fff;
+    margin-bottom: 15px;
+    height: 300px;
+}
+.contact-me .form input[type="submit"]
+{
+    background-color: #191e22;
+   color: #fff;
+    padding: 10px 20px;
+    border:0;
+    margin-bottom: 20px;
+}
+.contact-me .form select
+{
+    background-color: #4b5557;
+    width: 80%;
+    color: #fff;
+    margin-bottom: 15px;
+}
+/*end contact me*/
+
+
+
+
+/*start footer*/
+ .footer 
+{
+    height: 30px;
+    overflow: hidden;
+    background-color:#252F31;
+    color: #555;
+    text-align: center;
+    font-size: 15px;
+    padding-top:10px;
+}
+/*end footer*/

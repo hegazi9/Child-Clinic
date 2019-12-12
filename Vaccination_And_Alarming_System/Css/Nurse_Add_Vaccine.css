@@ -1,0 +1,38 @@
+body
+{
+    background-color: beige;
+}
+/*Stasrt navbar*/
+ 
+.vaccine
+{
+
+
+margin-left: 40%;
+
+
+
+
+}
+.vaccine h1
+{
+    color: green;
+    padding-right:80%;
+}
+.so
+{
+    margin-left: 0px;
+    width: 100px;
+}
+
+
+.submit
+{
+    
+border-radius:10px;
+height: 50px;
+width: 150px;
+margin-left: 30px;
+background-color:  darksalmon;
+}
+

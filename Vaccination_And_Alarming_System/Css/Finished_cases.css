@@ -1,0 +1,43 @@
+body
+{
+    background-color: #333;
+}
+
+.cases
+{
+    background-color: white;
+    height: 850px;
+    width: 100%;
+   
+    
+}
+.cases h1
+{
+    margin-top: 0;
+    padding-top: 50px;
+    
+    margin-bottom: 10%;
+}
+
+.cases h2,
+.cases p
+{
+ margin-left: 15%;
+}
+
+
+.cases .print
+{
+    margin-left: 40%;
+    background-color: white;
+    border: 2px solid #333;
+    height: 50px;
+    width: 150px;
+     border-radius: 10px;
+}
+
+.footer
+{
+    margin-top: 250px;
+    
+}

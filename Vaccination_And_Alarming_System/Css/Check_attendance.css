@@ -1,0 +1,77 @@
+body
+{
+    height:auto;
+    width:auto;
+    background-color: #333;
+}
+/*start container*/
+.container
+{
+    height: auto;
+}
+
+/*End container*/
+
+
+/*Start cover*/
+
+.cover
+{
+   
+    height: auto;
+    width: auto;
+    
+}
+
+.cover  h1
+{
+    margin-top:0;
+    text-align: center;
+    padding-top: 50px;
+    color: green;
+}
+.cover h2
+{
+    display: inline;
+    margin-right: 15px;
+    color: #333;
+   
+}
+
+.cover .form
+{
+    margin-left: 42%;
+}
+.cover .form .checkbox
+{
+    margin-top :25px;
+}
+.cover .form .button
+{
+    height: 50px;
+    width:150px;
+    margin-left: 20px;
+    background-color: #c0c0c0;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 50px;
+       
+}
+/*End cover*/
+
+/*Strat footer*/
+.footer
+{
+    height: 40px;
+    color: #666;
+    text-align: center;
+    background-color: #252F31;
+     margin-bottom: 0;
+}
+.footer h5
+{
+     margin-top: 0;
+     padding-top: 15px;
+     margin-bottom: 0;
+}
+/*end footer*/

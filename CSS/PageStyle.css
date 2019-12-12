@@ -1,0 +1,200 @@
+html {
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 2.0em;
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3em;
+    
+}
+
+.notifications
+{
+    text-align: center;
+}
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+
+img 
+{
+    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    display:block;
+
+    margin: 2.0em auto;
+    max-width: 95%;
+}
+
+
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+
+html .move{text-align: right;}
+
+/***************************************************************************************/
+/*page 1_____feedback*/
+.head{font-weight: bolder;
+    font-size:40px;
+font-style: oblique;
+text-decoration: underline;
+color:darkslategrey}
+
+p{
+    color:cornflowerblue;
+    font-weight: bold;
+    
+}
+
+input{
+    
+    line-height:10%;
+    border: 2px solid brown;
+   border-radius: 5%;
+    margin-top: 10px;
+}
+.submit{
+    height:25px;
+    width:80px;
+    margin-top:25px
+    
+}
+
+#footer p{
+    color:crimson;
+    text-decoration: none;
+    font-weight: bolder
+}
+
+/****************************************************************************/
+/*login form */
+
+.login{
+    width:300px;
+    margin:100px auto;
+    
+}
+
+.login input{
+    margin-bottom: 20px;
+
+}
+
+.login input{
+    background-color: #E5E5E5;
+    height:25px;
+    width:230px;
+    line-height: 70%
+}
+
+.login .ok {
+    height:30px;
+    width:100px;
+    margin:30px 0px 0px 60px
+}
+.login [placeholder]{
+    font-size:18px;
+    padding-top:14px
+}
+
+.head_reg{
+    text-align: center;
+    text-decoration: underline;
+}
+ .name p{margin-left:-160px;
+margin-bottom: -40px}
+
+ .pass p{ 
+    margin-left:-160px;
+margin-bottom: -100px
+}
+
+
+
+
+
+/*page 3 Reserve appointment ***/
+.marq{
+    background-color:darkred;
+    color:burlywood;
+    height:40px;
+    font-weight: bold
+}
+.reserv_t {Padding-left:60px}
+
+.date{padding:5px;height:30px}
+
+.select{width:140px;
+height:40px;
+margin-left:310px}
+
+.reserve_btn,.reset{
+     height:45px;
+    width:170px;
+    margin-left:290px;
+    margin-top:100px
+}
+
+.reset{
+    margin-left: 340px
+}
+
+/*******page 4 registration ******/
+.marq{
+    margin-top:90px;
+    margin-bottom: -60px
+}
+
+/*********************************************/
+.multi_btn{
+    
+     height:45px;
+    width:170px;
+    margin-left:290px;
+    margin-top:30px
+}

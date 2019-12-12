@@ -1,0 +1,55 @@
+body
+{
+    height:auto;
+    width:auto;
+    background-color: #333;
+}
+/*start container*/
+.container
+{
+    height: auto;
+}
+
+/*End container*/
+
+
+
+/*Start cover*/
+
+.feed
+{
+   
+    height: 580px;
+    width: auto;
+    background-color: #333;
+   
+ 
+}
+.feed h1
+{
+    margin-top: 0px;
+    color: green;
+    text-align: center;
+    padding-top: 50px;
+}
+
+ .feed textarea
+{
+    margin-left: 32%;
+    height: 200px;
+    width: 500px;
+}
+.button
+{
+ display: block;
+ height: 50px;
+ width: 150px;
+ background-color: #c0c0c0;
+ color: #333;
+ margin-left: 45%;
+ margin-top: 30px;
+ 
+}
+/*End cover*/
+
+

@@ -1,0 +1,64 @@
+body
+{
+    height:auto;
+    width:auto;
+}
+
+/*start form*/
+
+ .Log_in
+{
+    height: 590px;
+    width: 1255px;
+    background-color: #333;
+     float: left;
+     padding: 0 80px 0 30px;
+     color: #777;
+}
+.Log_in h1
+{
+    margin-top: 0px;
+    color: green;
+  
+    padding-top: 50px;
+}
+
+.Log_in h2
+{
+    color: #c0c0c0
+}
+.Log_in h3
+{
+    color: #c0c0c0;
+    display: inline;
+}
+
+
+.form 
+{
+    margin-left:45%;
+}
+
+.form h2
+{
+    margin-top: 20px;
+  color: #c0c0c0;
+  
+}
+
+
+.form .button
+{
+display: block; 
+    background-color: #c0c0c0;
+    height: 50px;
+    margin-top: 40px;
+  margin-left: 20px;
+    width: 150px;
+    color: #333;
+    font-size: 20px;
+        
+}
+
+/*end form*/
+

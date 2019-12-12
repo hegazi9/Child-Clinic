@@ -1,0 +1,135 @@
+body
+{
+    height:auto;
+    width:auto;
+}
+/*start container*/
+.container
+{
+    height: auto;
+}
+/*End container*/
+
+
+/*Start navbar*/
+.navbar{
+    background-color: #252F31;
+    overflow:hidden;             
+    height: 50px;
+}
+
+.navbar h1
+{
+    float:left;
+    text-transform: uppercase;
+    padding-left:3px;
+    color: aliceblue;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.navbar h1 span
+{
+    color:green;
+}
+
+.navbar ul li
+{
+    float :right;
+    padding:5px;
+    list-style:none;
+    border-bottom: 1px solid red;
+}
+
+.navbar ul li a{
+    color:#FFF;
+    text-decoration: none;
+     font-size: 14px;
+    
+}
+.navbar ul li.active a ,
+.navbar ul li a:hover
+{
+    color:dodgerblue
+}
+
+.navbar ul li:hover ul{
+    display: block
+}
+.navbar ul  ul {
+    display:none;
+    position:absolute;
+    background-color:black;
+  
+    max-width:60px;
+    margin-top:10px;   
+}
+
+.navbar ul ul li {
+    display:block;
+    border-bottom: 1px solid blue;
+    text-align: center;
+     margin-right:30px; 
+}
+.navbar ul ul li:hover {
+    color:cornflowerblue;
+}
+
+.navbar .log_nav
+{
+    float :right ;
+    padding-left: 240px;
+    padding-right: 20px;
+}
+
+/*End  navbar*/
+
+/*Start cover*/
+
+.cover
+{
+    background-image: url("../Images/Employee.jpg");
+    background-size: cover;
+    height: 580px;
+    width: auto;
+    
+}
+
+.cover  h1
+{
+    
+    margin-top:0;
+    text-align: center;
+   
+    color: green;
+    font-size: 45px;
+}
+.cover  h1 span
+{
+    color: white;
+    border-bottom: 2px solid aqua;
+    border-top: 2px solid aqua;
+}
+
+
+/*End cover*/
+
+/*Strat footer*/
+.footer
+{
+    height: 40px;
+    color: #666;
+    text-align: center;
+    background-color: #252F31;
+     margin-bottom: 0;
+}
+.footer h5
+{
+     margin-top: 0;
+     padding-top: 15px;
+     margin-bottom: 0;
+}
+
+/*end footer*/

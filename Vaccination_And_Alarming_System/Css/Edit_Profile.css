@@ -1,0 +1,47 @@
+body
+{
+    background-color: #333;
+    
+}
+
+
+ .Register
+{
+    height: 580px;
+    background-color: #333;
+     padding-left: 50px;
+}
+.Register h1
+{
+   color: green;
+    margin-left: 40%;
+}
+.form 
+{
+    margin-left: 40%;
+}
+
+.form h2
+{
+    margin-top: 20px;
+  color: #c0c0c0;
+  
+}
+
+
+.form .button
+{
+display: block; 
+    background-color: #c0c0c0;
+    height: 50px;
+    margin-top: 40px;
+    width: 150px;
+    color: #333;
+    font-size: 20px;
+        
+}
+
+.footer
+{
+    margin-top: 80px;
+}
